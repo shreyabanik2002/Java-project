@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class customerdashboard {
     String customer;
+    
     public void update(int bal,String filePath){
         try{
             String bale= String.valueOf(bal);
@@ -66,7 +67,7 @@ public class customerdashboard {
                 int depamt=sc.nextInt();
                 cbal=cbal+depamt;
                 update(cbal,filePath);
-                System.out.println("Amount Withdrawn Successfully");
+                System.out.println("Amount deposit Successfully");
                 System.out.println("Present Balance: "+cbal);
                 try(BufferedWriter br= new BufferedWriter(new FileWriter(filePath,true))){
                     Date currentDate = new Date();

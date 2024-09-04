@@ -1,0 +1,4 @@
+Account balance:
+11700
+12000 Credited at 2023-07-23 11:49:47: Available Balance: 12000
+300 Debited at 2023-07-23 11:50:00: Available Balance: 11700
